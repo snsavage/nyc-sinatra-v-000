@@ -57,7 +57,6 @@ describe LandmarksController do
 
   end
 
-
   it "allows you to edit a single landmark" do
     @landmark = Landmark.first
     visit "/landmarks/#{@landmark.id}/edit"

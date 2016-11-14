@@ -2,9 +2,14 @@
   <tr>
     <th>Name</th>
     <th>Year Completed</th>
+    <th>Edit</th>
   </tr>
   <tr>
     <td><%= @landmark.name %></td>
     <td><%= @landmark.year_completed %></td>
+    <td><a href="/landmarks/<%= @landmark.id %>/edit">Edit</a></td>
   </tr>
 <table>
+
+<a href="/landmarks">Back to All Landmarks</a>
+
